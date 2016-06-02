@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=UTF-8>
+  <title>Angular Webpack Starter</title>
+  <base href="/">
+</head>
+<body>
+  <my-app>Loading...</my-app>
+  <script src="vendor.bundle.js"></script>
+  <script src="bundle.js"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/live/3.0/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyD0XUb8qxzDuwIo9ukQ0-xaMoRRfnqskZw",
+      authDomain: "angular-webpack1.firebaseapp.com",
+      databaseURL: "https://angular-webpack1.firebaseio.com",
+      storageBucket: "angular-webpack1.appspot.com"
+    };
+    firebase.initializeApp(config);
+  </script>
+
+</body>
+</html>

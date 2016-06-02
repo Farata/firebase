@@ -1,0 +1,6 @@
+.preview*
+.idea*
+*.pdf*
+
+
+node_modules
