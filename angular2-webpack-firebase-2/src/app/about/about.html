@@ -1,0 +1,9 @@
+<div class="wrapper">
+  <h2>About Component</h2>
+
+  <div *ngIf="!currentUser" class="unauthorized">You are not authorized to access this page. You will be redirected to the Home page in 5 seconds.</div>
+
+  <ul *ngIf="currentUser">
+    <li *ngFor="let p of products">{{p}}</li>
+  </ul>
+</div>

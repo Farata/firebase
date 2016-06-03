@@ -1,0 +1,11 @@
+.wrapper {
+  background: #eee;
+}
+
+.auth-panel {
+  margin: 20px 0;
+}
+
+.error-message {
+  color: red;
+}
